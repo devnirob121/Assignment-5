@@ -1,0 +1,61 @@
+html {
+  font-size: 10px;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.product-img {
+  width: 191px;
+  height: 200px;
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product {
+  overflow: hidden;
+}
+.product-img img {
+  width: 109px;
+  height: 135px;
+  flex-shrink: 0;
+  margin: auto;
+  object-fit: contain;
+}
+
+/* 
+@media (max-width: 425px) { 
+  .banner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sale-fever{
+    font-size: 2rem;
+  }
+  .big-title{
+    font-size: 3rem ;
+    margin-bottom: 1.4rem;
+  }
+  .user-promo-code{
+    font-size: 1.5rem;
+  }
+  /* .product-col {
+   display: flex !important;
+   flex-wrap: wrap;
+
+} */
+/* .product-cart {
+  margin-top: 2rem;
+}
+.inner-coupon{
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+#couponField{
+  padding: 1.3rem;
+}
+} */ 
+
